@@ -1,0 +1,117 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+header > h1 {
+  font-size: 5rem;
+  color: #C22828;
+  text-align: center;
+}
+
+body {
+  background-color: #EFBFC6;
+}
+
+main {
+  width: 800px;
+  min-height: 430px;
+  margin: 50px auto;
+}
+
+#result {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#result > h2 {
+  color: #C22828;
+  font-size: 45px;
+}
+
+
+input {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 250px;
+  width: 300px;
+  border: 1px solid #3C0303;
+  border-radius: 3px;
+  font-size: 20px;
+  color: #3C0303;
+}
+
+#result li {
+  width: 500px;
+  margin: 40px auto;
+  box-sizing: border-box;
+  border: 1px solid #3C0303;
+  box-shadow: 2px 2px #C22828;
+  border-radius: 5px;
+  list-style: none;
+}
+
+#result li:hover {
+  box-shadow: 3px 3px #3C0303;
+}
+
+#result li > a {
+  color: #C22828;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#result li > p {
+  color: #8A0F0F;
+  font-size: 22px;
+}
+
+button {
+  vertical-align: middle;
+  width: 90px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #C22828;
+  cursor: pointer;
+  color: #8A0F0F;
+}
+
+button:hover {
+  box-shadow: 3px 3px #3C0303;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+#request {
+  margin-left: 305px;
+}
+
+button > a {
+  text-decoration: none;
+  color: #8A0F0F;
+}
+
+a:visited {
+  color: #8A0F0F;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #3C0303;
+}
+
+footer > a {
+  float: right;
+  color: #BBBBBB;
+}

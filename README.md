@@ -1,6 +1,5 @@
-Welcome to the HyperDev BETA
-============================
+<h1> Wikipedia Viewer </h1>
 
-Click `"Show"` in the header to see your app live. Updates to your code will instantly deploy and update live.
+<h2>https://seed-twister.hyperdev.space - Live Preview</h2>
 
-HyperDev is a developer playground that lets you code a real web-app without the slow setup and deployment steps. 
+<h3>Make sure to allow content from other sources.</h3>
